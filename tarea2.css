@@ -1,0 +1,54 @@
+body{
+    background-color: green
+}
+h1{
+    text-align: center;
+    color: honeydew;
+}
+#contenedor{
+    background-color: rgb(217, 214, 228);
+    margin: 60px auto 0 auto; 
+    width: 70%;
+    border-radius: 10px;
+    text-transform:capitalize;
+    font-size: 20px;
+    border-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.email{
+    margin-top: 60px;
+}
+
+.input{
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color:rgb(134, 128, 31);
+    color: cornsilk;
+    border-color: black;
+    display: block;
+    margin: 30px auto 0 auto; 
+    border-radius: 10px;
+  
+    
+}
+button{
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color:rgb(138, 161, 33);
+    color: cornsilk;
+    border-color: black;
+    text-align: center;
+    display: block;
+    margin: 30px auto 0 auto; 
+    border-radius: 10px;
+    
+}
+
+#direccion{
+    width: 400px;
+}
+#edad{
+    width: 50px;
+}

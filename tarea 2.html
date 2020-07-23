@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2</title>
+    <link rel="stylesheet" href="tarea2.css">
+</head>
+<h1>Tarea punto 2, 3 y 4 Formulario</h1>
+<body>
+    <div id="contenedor">
+        <div class="heder">
+            <form class="heder">
+                  <label for="nombre">Nombre</label>
+                  <input id="nombre"  type="text" class="validate"required minlength="6" maxlength="12">
+                  <label for="apellido">Apellido</label>
+                  <input id="apellido" type="text" class="validate">
+                  <button id="boton" type="reset"onclick="capturar();">Validar</button>
+                
+            </form>     
+            </div>       
+        <div class="email" >
+          <form class="body">
+            <label for="edad">Edad</label>
+            <input id="edad" type="number">
+            <label for="ocupacion">Ocupacion</label>
+            <input id="ocupacion" type="text">
+            <label for="direccion">Direccion</label>
+            <input id="direccion" type="text">
+            <label for="telefono">Telefono</label>
+            <input type="number" name="telefono" id="telefono">
+
+            <label for="email">Email</label>
+            <input id="email" type="email" class="validate" required>
+            <label for="password">Password</label>
+            <input id="password" type="password" class="validate"required minlength="10" maxlength="20">
+            <button id="boton2" type="reset" onclick="capturar();">Validar</button>
+        </form>
+      </div>
+      </div>              
+ <script src="tarea2.js"></script>
+</body>
+</html>
